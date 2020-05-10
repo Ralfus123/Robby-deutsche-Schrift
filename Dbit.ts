@@ -662,7 +662,7 @@ namespace sloth {
     /**
      * Volume of the mic get.
      */
-    //% blockId=sloth_volume_of_heard block="获取声音传感器值"
+    //% blockId=sloth_volume_of_heard block="Lautstärke Micro"
     //% weight=65 blockGap=10
     export function volume_of_heard(): number {
         let volume: number = 0
@@ -700,7 +700,7 @@ namespace sloth {
      * The event mic get voice more then the threshold.
      * @param threshold ; eg: 550
      */
-    //% blockId=sloth_mic_get_voice block="当听到声音时 |%threshold"
+    //% blockId=sloth_mic_get_voice block="Micro-Wert|%threshold"
     //% threshold.min=0 threshold.max=1023
     //% weight=70 blockGap=10
     export function onHeard(threshold: number = 550, handler: Action) {
