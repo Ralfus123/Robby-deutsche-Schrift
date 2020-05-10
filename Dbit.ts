@@ -721,7 +721,7 @@ namespace sloth {
     /**
      * IR detect obstacle: IR on digital pin 12, when detected, pin 12 is low
      **/
-    //% blockId=sloth_IR_detect_obstacle block="当检测到障碍物时"
+    //% blockId=sloth_IR_detect_obstacle block="IR-an Digipin 12"
     //% weight=55 blockGap=50
     export function obstacle_detected(): boolean {
         if (pins.digitalReadPin(DigitalPin.P12) == 0)
@@ -733,7 +733,7 @@ namespace sloth {
     /**
      * servo sweep
      **/
-    //% blockId=sloth_servo_sweep block="扫描舵机"
+    //% blockId=sloth_servo_sweep block="fegen"
     //% weight=55
     export function servo_sweep(): void {
         let item = -90
