@@ -4,13 +4,13 @@
 namespace sloth {
 
     export enum PWMChn {
-        //% blockId="Right_leg" block="右侧腿"
+        //% blockId="Right_leg" block="rechtes Bein"
         Right_Leg = 8,
-        //% blockId="Right_Foot" block="右侧脚尖"
+        //% blockId="Right_Foot" block="rechter Fuss"
         Right_Foot = 9,
-        //% blockId="Left_Foot" block="左侧脚尖"
+        //% blockId="Left_Foot" block="linker Fuss"
         Left_Foot = 10,
-        //% blockId="Left_leg" block="左侧腿"
+        //% blockId="Left_leg" block="linkes Bein"
         Left_Leg = 11,
         CH1 = 0,
         CH2 = 1,
@@ -438,7 +438,7 @@ namespace sloth {
     /**
      * Stand still: 4 servos turn to 90 degrees
      */
-    //% blockId=sloth_stand_still block="站着"
+    //% blockId=sloth_stand_still block="Ruhezustand Robby"
     //% weight=100 blockGap=10
     export function stand_still(): void {
         let servo_targets = [0, 0, 0, 0];
@@ -492,7 +492,7 @@ namespace sloth {
      * @param step ; eg: 1
      * @param speed ; eg: 50
      */
-    //% blockId=sloth_do_action block="%action=sloth_actions|%step|Schritte|%speed|Speed"
+    //% blockId=sloth_do_action block="%action=sloth_actions|%step|步数 %speed|速度"
     //% weight=98 blockGap=50
     //% speed.min=1 speed.max=100
     export function do_action(action: number, step: number = 1, speed: number = 50): void {
