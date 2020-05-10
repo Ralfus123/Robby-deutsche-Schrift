@@ -1,10 +1,10 @@
 
 //
-//% weight=5 color=#1BAFEA 
+//% weight=5 color=#1BAFEA icon="\uf1b2"
 namespace sloth {
 
     export enum PWMChn {
-        //% blockId="Right_leg" block="Gehen"
+        //% blockId="Right_leg" block="右侧腿"
         Right_Leg = 8,
         //% blockId="Right_Foot" block="右侧脚尖"
         Right_Foot = 9,
@@ -189,33 +189,33 @@ namespace sloth {
     export enum action_name {
         //% blockId="walk" block="gehen"
         walk = 0,
-        //% blockId="walk_backward" block="后退"
+        //% blockId="walk_backward" block="zurück"
         walk_backward = 1,
-        //% blockId="turn_left" block="左转"
+        //% blockId="turn_left" block="nach links"
         turn_left = 2,
-        //% blockId="turn_right" block="右转"
+        //% blockId="turn_right" block="nach rechts"
         turn_right = 3,
-        //% blockId="moonwalk_left" block="太空步左转"
+        //% blockId="moonwalk_left" block="Raumschritt links"
         moonwalk_left = 4,
-        //% blockId="moonwalk_right" block="太空步右转"
+        //% blockId="moonwalk_right" block="Raumschritt rechts"
         moonwalk_right = 5,
-        //% blockId="shake_left" block="左侧摇摆"
+        //% blockId="shake_left" block="links schütteln"
         shake_left = 6,
-        //% blockId="shake_right" block="右侧摇摆"
+        //% blockId="shake_right" block="rechts schütteln"
         shake_right = 7,
-        //% blockId="go_up_and_down" block="上上下下"
+        //% blockId="go_up_and_down" block="auf und ab"
         go_up_and_down = 8,
-        //% blockId="swing" block="摇摆不定"
+        //% blockId="swing" block="schwingen"
         swing = 9,
-        //% blockId="walk_boldly" block="大步前进"
+        //% blockId="walk_boldly" block="großer Schritt"
         walk_boldly = 10,
-        //% blockId="walk_backward_boldly" block="大步后退"
+        //% blockId="walk_backward_boldly" block="großer Schritt zurück"
         walk_backward_boldly = 11,
-        //% blockId="walk_shyly" block="细步前进"
+        //% blockId="walk_shyly" block="leicht vorwärts"
         walk_shyly = 12,
-        //% blockId="walk_backward_shyly" block="细步后退"
+        //% blockId="walk_backward_shyly" block="leicht rückwärts"
         walk_backward_shyly = 13,
-        //% blockId="big_swing" block="大浪潮"
+        //% blockId="big_swing" block="schwungvoll"
         big_swing = 14
     }
 
