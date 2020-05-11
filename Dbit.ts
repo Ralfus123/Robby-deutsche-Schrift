@@ -396,7 +396,7 @@ namespace sloth {
      * Servo move, input 4 elements array, to move all servo
      * @param speed ; eg: 50
     */
-    //% blockId=sloth_servo_move block="设置舵机移动到 %target| %speed|dps"
+    //% blockId=sloth_servo_move block="Servo-Bewegung %target| %speed|dps"
     //% weight=40
     //% advanced=true
     //% speed.min=1 speed.max=100
@@ -492,7 +492,7 @@ namespace sloth {
      * @param step ; eg: 1
      * @param speed ; eg: 50
      */
-    //% blockId=sloth_do_action block="%action=sloth_actions|%step|步数 %speed|速度"
+    //% blockId=sloth_do_action block="%action=sloth_actions|%step|Schritt %speed|Speed"
     //% weight=98 blockGap=50
     //% speed.min=1 speed.max=100
     export function do_action(action: number, step: number = 1, speed: number = 50): void {
