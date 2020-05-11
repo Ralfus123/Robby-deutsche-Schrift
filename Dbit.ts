@@ -592,7 +592,7 @@ namespace sloth {
     /**
      * Calibrate 4 servos by buttonA, buttonB, and A+B.
      */
-    //% blockId=sloth_cali_by_button block="校正"
+    //% blockId=sloth_cali_by_button block="Korrektur"
     //% weight=45 blockGap=10
     export function cali_by_button(): void {
         basic.showString("Cali")//brate 4 servos by button A, B & A+B")
@@ -733,7 +733,7 @@ namespace sloth {
     /**
      * servo sweep
      **/
-    //% blockId=sloth_servo_sweep block="fegen"
+    //% blockId=sloth_servo_sweep block="fegen,korrigieren"
     //% weight=55
     export function servo_sweep(): void {
         let item = -90
