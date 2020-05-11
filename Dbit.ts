@@ -464,7 +464,7 @@ namespace sloth {
      * Set gesture for sloth:bit: fill in the blank to drive servo turn the angle and show gesture for you. This block 
      * is just for advance, pay attention to set value, and provide blocking protection to the servos
      */
-    //% blockId=sloth_set_gesture block="设置姿态 | 左侧腿 %o1| 左侧脚尖 %o2| 右侧腿 %o3| 右侧脚尖 %o4"
+    //% blockId=sloth_set_gesture block="Geste einstellen | Linkes Bein %o1| Linker Fuss %o2| Rechtes Bein %o3| Rechter Fuss %o4"
     //% o1.min=-90 o1.max=90
     //% o2.min=-90 o2.max=90
     //% o3.min=-90 o3.max=90
