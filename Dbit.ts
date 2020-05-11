@@ -721,7 +721,7 @@ namespace sloth {
     /**
      * IR detect obstacle: IR on digital pin 12, when detected, pin 12 is low
      **/
-    //% blockId=sloth_IR_detect_obstacle block="IR-an Digipin 12"
+    //% blockId=sloth_IR_detect_obstacle block="IR-Signal an Pin 12"
     //% weight=55 blockGap=50
     export function obstacle_detected(): boolean {
         if (pins.digitalReadPin(DigitalPin.P12) == 0)
