@@ -448,7 +448,7 @@ namespace sloth {
     /**
      * Set offset for 4 servos: you can use block "calibrate" on "startup", to get the value to fill in the blank
      */
-    //% blockId=sloth_set_offset block="设置偏移量 | 右侧腿 %o3| 左侧腿 %o1| 右侧脚尖 %o4| 左侧脚尖 %o2"
+    //% blockId=sloth_set_offset block="Einstellung | Rechtes Bein %o3| Linkes Bein %o1| Rechter Fuss %o4| Linker Fuss %o2"
     //% weight=45
     //% o1.min=-30 o1.max=30
     //% o2.min=-30 o2.max=30
